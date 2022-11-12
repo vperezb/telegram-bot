@@ -9,7 +9,20 @@
 
 ## Part 1 -- Create a Telegram bot and store its credentials
 
-The first thing we need to do is to create the Telegram bot, it can be easily done by starting a chat with the "@Botfather". You can follow this link and it will open on your browser or Telegram Desktop. [https://telegram.me/BotFather](https://telegram.me/BotFather).
+1. Start a chat with `@Botfather`. You can follow this link and it will open on your browser or Telegram Desktop. [https://telegram.me/BotFather](https://telegram.me/BotFather).
+
+2. Type `/newbot` to create a new bot.
+    - Response: `Alright, a new bot. How are we going to call it? Please choose a name for your bot.` (How it will appear on the lists, not the username)
+
+3. Set the name of the bot. For example `My first bot`
+    - Response: `Good. Now let's choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.` Take into account that there are a lot of "taken" usernames so it may be difficult to find an empty one.
+
+4. Type the username for the bot. I used `aoisudha9_bot`.
+    - Response: `Done! Congratulations on your new bot. You will find it at t.me/aoisudha9_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.`
+
+    - And the most important part, it returns you the bot token, the way to authenticate after that you are the bot owner. `Use this token to access the HTTP API: mysupertoken980987987098:98u9879879879 Keep your token secure and store it safely, it can be used by anyone to control your bot.`
+
+5. Copy the token to a notepad and keep it for later.
 
 ## Part 2 -- Create a Google Cloud function that listens Telegram webhook
 
