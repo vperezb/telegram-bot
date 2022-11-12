@@ -30,15 +30,15 @@
     - Now you should have a project, the CLI installed on the computer and authenticated. Ready to start executing commands such as `gcloud auth list
 `.
 
-2. 
+2. [Enable Gcloud Functions API](https://console.cloud.google.com/marketplace/product/google/cloudfunctions.googleapis.com)
 
-
-
-Create a Google Cloud Function running this command in the same line:
+3. Create a Google Cloud Function running this command in the same line:
 
 ```
-gcloud functions deploy telegram_bot --set-env-vars "TELEGRAM_TOKEN=xxx" --runtime python38 --trigger-http --project=my-telegram-bot
+gcloud functions deploy telegram_bot --set-env-vars "TELEGRAM_TOKEN=<TELEGRAM_TOKEN>" --runtime python38 --trigger-http --project=<GCLOUD-PROJECT>
 ```
+
+Being `telegram_bot` the name of the function we want to execute in the `main.py` file.
 
 You can also specify the region by appending the following string to the previous command. [List of the available regions](https://cloud.google.com/compute/docs/regions-zones)
 
@@ -53,7 +53,7 @@ Some details:
 * `--runtime python38` describe the environment used by our function, Python 3.8 in this case
 * `--trigger-http` is the type of trigger associated to this function.
 
-## Part 2
+## Part 3
  
 You need to set up your Webhook URL in "Telegram" using this API call:
 
