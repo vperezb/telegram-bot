@@ -26,7 +26,13 @@
 
 ## Part 2 -- Create a Google Cloud function that listens Telegram webhook
 
-This part 
+0. Go through the full quickstart tutorial. [Here](https://cloud.google.com/sdk/docs/install-sdk)
+    - Now you should have a project, the CLI installed on the computer and authenticated. Ready to start executing commands such as `gcloud auth list
+`.
+
+2. 
+
+
 
 Create a Google Cloud Function running this command in the same line:
 
