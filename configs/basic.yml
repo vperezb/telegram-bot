@@ -1,0 +1,7 @@
+root:
+  project_name : My Project
+  contact_mail : vperezb@proton.me
+gcloud:
+  project_id: my-project-1470411376725
+crop_book:
+  google_scripts_url: https://script.google.com/macros/s/AKfycbxM8nievXRWSm81t_TcX3gJ_gXuF1hCVCtwXs8TJm0szK0tCu826COm216pLrKWGlbp/exec
