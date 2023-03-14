@@ -50,7 +50,7 @@ def text_to_dict(text, name):
     l = text.split('/')
     payload = {
         'A': name,
-        'B':  l[0].lower() if 0 < len(l) else '',
+        'B': l[0].lower() if 0 < len(l) else '',
         'C': l[1].lower() if 1 < len(l) else '',
         'D': l[2].lower() if 2 < len(l) else ''
     }
