@@ -11,10 +11,12 @@
 
 1. Create a new Google Spreadsheets document.
 2. Add a new sheet named `data` (or rename `Sheet1` to `data`)
-3. Click `Extensions>Apps Scripts` and paste the content of `google-scripts.js` in it.
-4. Click `publish`, select `web application` and accept all unsecure stuff in the following dialogs.
-5. At the end a URL like this will be provided `https://script.google.com/macros/s/iausudhliaushfiuasdhfliuhdslifuhIU76T7AS6FYGYA7SD/exec`
 6. Now copy the URL and replace the `GOOGLE_SCRIPTS_URL` in the `main.py` file.
+3. In the cell `A1` type `A`, in `B1`->`B`, `C1`->`C`, `D1`->`D`
+4. Click `Extensions>Apps Scripts` and paste the content of `google-scripts.js` in it.
+5. Click `publish`, select `web application` and accept all unsecure stuff in the following dialogs.
+6. At the end a URL like this will be provided `https://script.google.com/macros/s/iausudhliaushfiuasdhfliuhdslifuhIU76T7AS6FYGYA7SD/exec`
+7. Now copy the URL and replace the `GOOGLE_SCRIPTS_URL` in the `main.py` file.
 
 ## Part 2 -- Create a Telegram bot and store its credentials
 
