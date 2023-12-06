@@ -52,7 +52,8 @@ def text_to_dict(text, name):
         'A': name,
         'B': l[0].lower() if 0 < len(l) else '',
         'C': l[1].lower() if 1 < len(l) else '',
-        'D': l[2].lower() if 2 < len(l) else ''
+        'D': l[2].lower() if 2 < len(l) else '',
+        'E': l[2].lower() if 3 < len(l) else '',
     }
     return payload
 
