@@ -89,8 +89,3 @@ curl "https://api.telegram.org/bot<TELEGRAM_TOKEN>/setWebhook?url=<URL>&drop_pen
 
 Once this success message should be returned:
 `{"ok":true,"result":true,"description":"Webhook was set"}`
-
-
-
-
-https://api.telegram.org/bot5785288507:AAEZAqEoukhirWfn_Aa0ohj3AtAiRx5rMN4/getUpdates
